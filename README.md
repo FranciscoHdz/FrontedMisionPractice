@@ -1,16 +1,12 @@
 # FrontedMisionPractice
-Resolución de practicas caso abogabot.
+En este repositorio podemos encontrar la resolución de la practicas de las misiones de Frontend del programa LaunchX
 
-A continuación, se listan los archivos generados para la resolución del caso planteado en la practica número uno de introducción a Frontend, para poder visualizar el contenido dar clic en alguna opción del listado.
+**PRACTICAS REALIZADAS**
 
-**Archivos cargados para esta practica**
+-[INTRODUCCIÓN](./01-INTRO/README.md)
 
--[Toma de requerimientos](./01-INTRO/Requerimiento%20de%20Sistema.doc)
+-[HTML](./02-HTML/README.md)
 
--[buyer persona](./01-INTRO/Buyer%20Persona.pdf)
+-[CSS](./03-CSS/README.md)
 
--[Publico objetivo](./01-INTRO/Público%20objetivo.pdf)
-
--[Wireframe UX](./01-INTRO/Diseño%20UX.pdf)
-
--[Diseño UI ](https://xd.adobe.com/view/a0f149dd-b01d-4163-aec4-3741c15113d2-f5a2/)
+-[JS](./04-JS/README.md)

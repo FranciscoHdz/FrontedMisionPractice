@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria HR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/cardStyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/MELISSA's.png" alt="Logo Pasteleria Melissa" id="logoPasteleria">
+            <h1 id="NombrePasteleria">Pasteleria Melissa</h1>
+        </header>
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./CatalogoAdornos.html">Catalogo Adornos</a>
+            <a href="./CatalogoPastel.html">Catalogo Pasteles</a>
+        </nav>
+        <section class="main">
+            <div class="row">
+                <form>
+                    <label for="nombre">Nombre(s)</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    <br>
+                    <label for="apellidoP">Apellido Paterno</label>
+                    <input type="text" id="apellidoP" name="apellidoP" placeholder="Apellido Paterno">
+                    <br>
+                    <label for="apellidoM">Apellido Materno</label>
+                    <input type="text" id="apellidoM" name="apellidoM" placeholder="Apellido Materno">
+                    <br>
+                    <label for="tel">Telefono</label>
+                    <input type="tel" id="tel" name="tel" placeholder="55-96-35-89-63">
+                    <br>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@correo.mx">
+                    <br>
+                    <label for="descripcionPastel">Descripcion detallada del pastel</label><br>
+                    <textarea name="descripcionPastel" id="dpastel" cols="30" rows="10"></textarea>
+                    <br><br>
+                    <label for="saborPaste">Sabor del pastel</label>
+                    <br>
+                    <input type="checkbox" name="saborPastel" id="saborPaste1"> Chocolate <input type="color" value="#662717" disabled>
+                    <input type="checkbox" name="saborPastel" id="saborPaste2"> Frutos Rojos <input type="color" value="#e61042" disabled>
+                    <input type="checkbox" name="saborPastel" id="saborPaste3"> Zanahoria <input type="color" value="#e64210" disabled>
+                    <input type="checkbox" name="saborPastel" id="saborPaste4"> Vainilla <input type="color" value="#f1f522" disabled>
+                    
+                    <br><br>
+
+                    <label for="saborPaste">Selección de Adornos</label>
+                    <br>
+                    <input type="checkbox" name="saborPastel" id="saborPaste1"> Chocolate 
+                    <input type="checkbox" name="saborPastel" id="saborPaste2"> Velas 
+                    <input type="checkbox" name="saborPastel" id="saborPaste3"> Galletas 
+                    <input type="checkbox" name="saborPastel" id="saborPaste4"> Helado 
+                    <input type="checkbox" name="saborPastel" id="saborPaste4"> Bombones 
+                    <input type="checkbox" name="saborPastel" id="saborPaste4"> Lunetas
+                    <input type="checkbox" name="saborPastel" id="saborPaste4"> Fruta Natural
+                    <br><br>
+                    <input type="submit">
+                </form>
+                <img src="./assets/pastel.jpg" alt="Pastel" id="Pastel">         
+            </div>
+        </section>
+        
+
+
+    </div>
+</body>
+</html>
