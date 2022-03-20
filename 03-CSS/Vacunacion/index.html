@@ -5,25 +5,397 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campaña de vacunación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <div class="content">
         <header>
             <div class="logo">
-                <h1>VACUNACIÓN</h1>
+                <h1>Vaccination</h1>
             </div>
             <nav>
                 <a href="">Database</a>
                 <a href="">Education</a>
                 <a href="">News</a>
                 <a href="">Regulation</a>
-                <button>Hoax Buster</button>
+                <button class="btn-header">Hoax Buster</button>
             </nav>
         </header>
-        <section></section>
+        <section>
+            <div class="imageContainer">
+                <img src="./assets/medico.png" alt="medico">
+            </div>
+            <div class="informationContainer">
+                <p>
+                    <span class="subtitle">
+                        Fight Virus <br>with Vaccines<br> 
+                    </span>
+                    Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected 
+                    <br><br>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 12l2 2l4 -4" />
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                      </svg> 
+                    <span class="textIcons">
+                        Best Protection 
+                    </span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="#ffbf00" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg> 
+
+                    <span class="textIcons">
+                      Selected Vaccines
+                    </span>
+                </p>
+                <p id="schedule">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <polyline points="12 7 12 12 15 15" />
+                      </svg>
+                      <span class="textIcons">
+                        Schedule your Vaccination
+                      </span>
+                </p>
+
+                <div class="scheduleDiv">
+                    <form action="">
+                        <div>
+                            <label  for="location">Location</label>
+                            <input class="footerTitles" type="text" value="EDO.MEX ">
+                        </div>
+                        <div>
+                            <label  for="location">Date</label>
+                            <input class="footerTitles" type="date" value="2022-03-20">
+                        </div>
+                        <div>
+                            <label  for="location">vaccine Type</label>
+                            <select class="footerTitles" name="" id="">
+                                <option value="astra" selected>AstraZeneca</option>
+                                <option value="sinovac">Sinovac</option>
+                                <option value="pfizer">Pfizer</option>
+                                <option value="Moderna">Moderna</option>
+                            </select>
+                        </div>
+                        
+                    </form>
+                </div>
+
+                
+            </div>
+            <div class="logos">
+                <img src="./assets/astrazeneca.png" alt="astrazeneca">
+                <img src="./assets/Sinovac.svg.png" alt="Sinovac">
+                <img src="./assets/pfizer.svg" alt="pfizer">
+                <img src="./assets/moderna.png" alt="">
+            </div>
+            <div class="textInformation">
+                <p>
+                    <span class="subtitle">
+                        Why should I vaccine?
+                        <br>
+                    </span>
+                    In order to avoid amy doubts about getting the COVID-19<br> 
+                    vaccine, identify the following 4 benefits of COVID-19 Vaccination: 
+                </p>
+                <br><br>
+            </div>
+            <div class="cardContainer">
+
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments-horizontal" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="14" cy="6" r="2" />
+                        <line x1="4" y1="6" x2="12" y2="6" />
+                        <line x1="16" y1="6" x2="20" y2="6" />
+                        <circle cx="8" cy="12" r="2" />
+                        <line x1="4" y1="12" x2="6" y2="12" />
+                        <line x1="10" y1="12" x2="20" y2="12" />
+                      </svg>
+                      <br>
+                      <span class="titleCard">
+                        Minimiza the spread of viruses
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        vaccine has been proven effective to prevent someone from getting infected with coronavirus.
+                      </span>
+
+                </div>
+
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 12l2 2l4 -4" />
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                      </svg>
+                      <br> 
+                      <span class="titleCard">
+                        Formin antibodies
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        COVID-19 Vaccination proven to help shape antibody responde for immune system
+                      </span>
+                </div>
+
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                      </svg>
+                      <br>
+                      <span class="titleCard">
+                        Protecting people nearby
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        The benefits of COVID-19 Vaccination are the vaccine that we get can also help protect people around us
+                      </span>
+                      
+
+                </div>
+                
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 3v18h18" />
+                        <circle cx="9" cy="9" r="2" />
+                        <circle cx="19" cy="7" r="2" />
+                        <circle cx="14" cy="15" r="2" />
+                        <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+                        <path d="M15.088 13.328l2.837 -4.586" />
+                      </svg>
+                      <br>    
+                      <span class="titleCard">
+                        Creating group immunity
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        COVID-19 Vaccination is also beneficial fro creating group immunity.
+                      </span>
+                </div>
+                
+            </div>
+
+            <div class="informationContainer">
+                <p>
+                    <span class="subtitle">
+                        Preparations before vaccine 
+                    </span>
+                    <br>
+                    the success of vaccine is strongly influenced by the strength of the body's immune system. Therefore, the are several thigs that can be tried to make the COVID-19 vaccine work:
+                </p>
+                <ul>
+                    <li class="alcohol"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                      </svg>Avoid alcoholic beverage </li>
+
+                    <div id="alcohol">Heavy use of alcohol increases the risk of acute respiratory distress syndrome
+                        (ARDS), one of the most severe complications of COVID-19.</div>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                      </svg>Avoid stress </li>
+
+
+                    <div id="stress">Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol 
+                        production an oxidative stress in the body.</div>
+
+
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apple" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="14" r="7" />
+                        <path d="M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2" />
+                        <path d="M10 10.5c1.333 .667 2.667 .667 4 0" />
+                      </svg>Eat healthy food </li>
+
+
+                    <div id="food">
+                        Eating a healthy diet is very important during the COVID-19 pandemic. What we eat and drink can affect our 
+                        body's ability to prevent, fight and recover from infections. </div>
+
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                        <circle cx="7" cy="10" r="1" />
+                      </svg>Get enought sleep </li>
+
+                    <div id="sleep">
+                        Sleep is critical to physical health and the effective functioning of the immune system. It’s also a key 
+                        promoter of emotional wellness and mental health, helping to beat back stress, depression, and anxiety.
+                    </div
+                    
+                    >
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heartbeat" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19.5 13.572l-7.5 7.428l-2.896 -2.868m-6.117 -8.104a5 5 0 0 1 9.013 -3.022a5 5 0 1 1 7.5 6.572" />
+                        <path d="M3 13h2l2 3l2 -6l1 3h3" />
+                      </svg>Excercise or pysical activity </li>
+                    <div id="excercise">
+                        Physical activity and exercise can be effective treatment strategies for symptoms of both depression and anxiety.
+                    </div>
+                </ul>
+            </div>
+
+            <div class="imageContainer">
+                
+                <img src="./assets/medico2.png" alt="medico">
+            </div>
+           
+            <div class="imageContainer">
+                <img src="./assets/medico3.png" alt="medico">
+            </div>
+            <div class="informationContainer">
+                 <p>
+                    <span class="subtitle">
+                        Emergency Contact
+                        <br>
+                    </span>
+                    Contact one of the contacts below if you or your family feel unwell and have similar symptos such as COVID-19, make sure you also take care of yourself before reporting to us:
+                </p>
+                <br><br>
+                <div class="cardContainer">
+
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments-horizontal" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="14" cy="6" r="2" />
+                            <line x1="4" y1="6" x2="12" y2="6" />
+                            <line x1="16" y1="6" x2="20" y2="6" />
+                            <circle cx="8" cy="12" r="2" />
+                            <line x1="4" y1="12" x2="6" y2="12" />
+                            <line x1="10" y1="12" x2="20" y2="12" />
+                        </svg>
+                        <span class="titleCard">
+                            Call
+                        </span>
+                        <span class="bodyCard">
+                            021.123.145.14
+                            <button>Call now</button>
+                        </span>
+
+                    </div>
+
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 12l2 2l4 -4" />
+                            <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                        </svg>
+                        <span class="titleCard">
+                            Chat
+                        </span>
+                        <span class="bodyCard">
+                            021.123.145.14
+                            <button>Chat now</button>
+                          </span>
+                    </div>
+                </div>
+
+                <div class="cardContainer">
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                          </svg>
+                          <span class="titleCard">
+                            Video Call
+                          </span>
+                          <span class="bodyCard">
+                            021.123.145.14
+                            <button>Video call now</button>
+                          </span>
+                          
+    
+                    </div>
+                    
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 3v18h18" />
+                            <circle cx="9" cy="9" r="2" />
+                            <circle cx="19" cy="7" r="2" />
+                            <circle cx="14" cy="15" r="2" />
+                            <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+                            <path d="M15.088 13.328l2.837 -4.586" />
+                          </svg> 
+                          <span class="titleCard">
+                            Message
+                          </span>
+                          <span class="bodyCard">
+                            021.123.145.14
+                            <button>Message now</button>
+                          </span>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer>
-            
+            <div class="logoFooter">
+                <p>
+                    <span class="logoFooter">
+                        Vaccination
+                    </span>
+                    <br>
+                    Our goal is to help world free from the ongoing pandemic
+                </p>
+            </div>
+            <div >
+                <p> 
+                    <span class="footerTitles">
+                        About
+                    </span>
+                    <br>
+                    About Us
+                    <br>
+                    Features
+                    <br>
+                    News and Blog
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span class="footerTitles">
+                        Company 
+                    </span>
+                    <br>
+                    How we Work 
+                    <br>
+                    Capital
+                    <br>
+                    Security
+
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span class="footerTitles">
+                        Support
+                    </span>
+                    <br>
+                    FAQs
+                    <br>
+                    Suport Center
+                    <br>
+                    Contact Us
+                </p>
+            </div>
         </footer>
     </div>
 </body>
